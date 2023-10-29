@@ -421,7 +421,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  #page1 header {
+#page1 header {
     padding: 20px 20px; 
     position: fixed;
     top: 0;
@@ -460,20 +460,21 @@ h1 {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	background: url("zoro.gif");
 	background-size: cover;
 	background-position: center;
 	vertical-align: middle;
   margin-right: 10px; 
-  position: relative;
-	overflow: auto;
+  position: fixed;
+	overflow: hidden;
 	top: 100px;
 }
 .intro{
+	  top: 32%;
     text-align: center;
     color: #faa49d;
-    font-size: 20px;
+    font-size: 13px;
     text-shadow: 2px 2px 0px black;
 }
 }
