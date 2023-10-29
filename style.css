@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap');
+@font-face {
+  font-family: 'Europe';
+  src: url('europefont.ttf') format('truetype');
+}
+@font-face {
+  font-family: "African";
+  src: url('africa.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Asian';
+  src: url('calli.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'America';
+  src: url('brotherland.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Comic';
+  src: url('comicstrip.ttf') format('truetype');
+}
+#page1{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+}
+#page2{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+#page3{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+#page4{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+#page5{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+}
+#page2 h3{
+	font-family: "Permanent Marker", sans-serif;
+}
+#page1 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: url("zoro.gif");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+#page1 header{
+	position: relative;
+	top: 0;
+	width: 100vw;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("homehead.jpg");
+	background-size: contain;
+}
+
+#page1 header .logo{
+	position: relative;
+	color: #c2aafa;
+	font-size: 50px;
+	font-family: "Comic", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 0px black;
+}
+#page1 header .navlinks a{
+	color: #c2aafa;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	transition: 0.3s;
+	transition-property: background;
+	text-shadow: 2px 2px 0px black;
+}
+
+#page1 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page1 header .navlinks a:hover{
+	background: white;
+}
+#page2 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(135deg, #FD8A8A, #A8D1D1);
+	background-size: cover;
+	background-position: center;
+    vertical-align: middle;
+<<<<<<< HEAD
+    margin-right: 10px;
+    overflow: hidden; 
+=======
+    margin-right: 10px; 
+    overflow: hidden;
+>>>>>>> 0e694a59043e78a6ebb21ee23d51a327264e7c09
+}
+#flags{
+	width: 5vh;
+	transition: transform 0.3s;
+}
+#flags:hover{
+	transform: scale(1.1);
+}
+#page2 header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("americahead.jpg");
+	background-size: contain;
+}
+#page2 header .logo{
+	position: relative;
+	color: #f51307;
+	font-size: 40px;
+	font-family: "America", sans-serif;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px black;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#page2 header .navlinks a{
+	color: #f51307;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 0px black;
+	padding: 2px 15px;
+	border-radius: 20px;
+	transition: 0.3s;
+	transition-property: background;
+}
+
+#page2 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page2 header .navlinks a:hover{
+	background: whitesmoke;
+}
+#page3 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(135deg, #f598fa, #acfa98);
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+  margin-right: 10px; 
+  overflow: hidden;
+}
+#flags{
+	width: 5vh;
+}
+#page3 header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("mitsuri.jpg");
+	background-size: contain;
+}
+#page3 header .logo{
+	position: relative;
+	color: #07f547;
+	font-size: 40px;
+	font-family: "Asian", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0px black;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#page3 header .navlinks a{
+	color: #07f547;
+	text-shadow: 2px 2px 0px black;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	transition: 0.3s;
+	transition-property: background;
+}
+
+#page3 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page3 header .navlinks a:hover{
+	background: black;
+}
+#page4 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(135deg, #f1f291, #f2c891);
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+    margin-right: 10px; 
+    margin-right: 10px;
+    overflow: hidden;
+}
+#flags{
+	width: 5vh;
+}
+
+#page4 header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("europehead.png");
+	background-size: contain;
+}
+#page4 header .logo{
+	position: relative;
+	color: #faae4b;
+	font-size: 50px;
+	font-family: "Europe", sans-serif;
+	text-shadow: 2px 2px 0px black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#page4 header .navlinks a{
+	color: #faae4b;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	transition: 0.3s;
+	transition-property: background;
+	text-shadow: 2px 2px 0px black;
+}
+
+#page4 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page4 header .navlinks a:hover{
+	background: black;
+}
+#page5 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(135deg, #f7452a, #f7dc63, #32ed54);
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+    margin-right: 10px; 
+    overflow: hidden;
+}
+#flags{
+	width: 5vh;
+}
+#page5 header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("africanhead.png");
+	background-size: contain;
+}
+#page5 header .logo{
+	position: relative;
+	color: #fff873;
+	font-size: 60px;
+	font-family: "African", sans-serif;
+	text-shadow: 2px 2px 0px black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#page5 header .navlinks a{
+	color: #fff873;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 2px 15px;
+	border-radius: 20px;
+	transition: 0.3s;
+	transition-property: background;
+    text-shadow: 2px 2px 0px black;
+}
+
+#page5 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page5 header .navlinks a:hover{
+	background: darkgray;
+}
+
+#comic{
+	width: 30vh;
+	overflow: hidden;
+  transition: transform 0.3s;
+  background-color: #333;
+}
+#comic:hover{
+	transform: scale(1.1);
+}
+.contain{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(1.5, 1fr);
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 3 / 1 / 4 / 2; }
+.div2 { grid-area: 3 / 3 / 4 / 4; }
+.div3 { grid-area: 3 / 5 / 4 / 6; }
+.div4 { grid-area: 3 / 7 / 4 / 8; }
+.div5 { grid-area: 3 / 9 / 4 / 10; } 
+
+.intro{
+    position: absolute;
+    top: 35%;
+    bottom: 40%;
+    left: 55%;
+    transform: translate(-60%, -60%);
+    text-align: center;
+    color: #faa49d;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px black;
+}
+#first{
+	color: #f8c3fa;
+}
+
+.info-link{
+	color:#f8c3fa ;
+	text-decoration: none;
+}
+.info-link a:visited, a:active {
+  font-weight: bolder;
+  color:black;
+}
+
+.info-link a:active {
+  color: black;
+}
+
+.info-link a:hover {
+  background-color: black;
+}
+
+h1 {
+	color: #204ff7;
+}
+
+@media (max-width: 768px) {
+  #page1 header {
+    padding: 20px 20px; 
+  }
+
+  #page1 header .navlinks {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  #page1 header .navlinks a {
+    display: block; 
+    margin: 5px 0; 
+  }
+  #page1 section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: url("zoro.gif");
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+  margin-right: 10px; 
+	overflow: auto;
+  background-attachment: scroll;
+}
+.intro{
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 55%;
+    text-align: center;
+    color: #faa49d;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+}
+@media (max-width: 768px) {
+#page2 header {
+    padding: 20px 20px; 
+  }
+
+  #page2 header .navlinks {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  #page2 header .navlinks a {
+    display: block; 
+    margin: 5px 0; 
+  }
+}
+@media (max-width: 768px) {
+#page3 header {
+    padding: 20px 20px; 
+  }
+
+  #page3 header .navlinks {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  #page3 header .navlinks a {
+    display: block; 
+    margin: 5px 0; 
+  }
+}
+@media (max-width: 768px) {
+#page4 header {
+    padding: 20px 20px; 
+  }
+
+  #page4 header .navlinks {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  #page4 header .navlinks a {
+    display: block; 
+    margin: 5px 0; 
+  }
+}
+@media (max-width: 768px) {
+#page5 header {
+    padding: 20px 20px; 
+  }
+
+  #page5 header .navlinks {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  #page5 header .navlinks a {
+    display: block; 
+    margin: 5px 0; 
+  }
+ #comic{
+	width: 30vh;
+	overflow: hidden;
+  transition: transform 0.3s;
+  background-color: #333;
+}
+#comic:hover{
+	transform: scale(1.1);
+}
+.contain{
+   display: grid;
+   justify-items: center;
+   grid-template-columns: 1fr;
+   grid-gap: 5px;
+}
+#page2{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+}
+#page3{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+#page4{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+#page5{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Comic", sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+}
