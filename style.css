@@ -446,7 +446,7 @@ h1 {
 
 #page1 header .navlinks a {
     display: block; 
-    margin: 5px 0; 
+    margin: 1px 0; 
   }
 #page1 header .navlinks a:not(:last-child){
 	margin-right: 30px;
@@ -474,7 +474,7 @@ h1 {
 	  top: 32%;
     text-align: center;
     color: #faa49d;
-    font-size: 13px;
+    font-size: 10px;
     text-shadow: 2px 2px 0px black;
 }
 }
