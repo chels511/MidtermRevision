@@ -423,37 +423,54 @@ h1 {
 @media (max-width: 768px) {
   #page1 header {
     padding: 20px 20px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
-
-  #page1 header .navlinks {
+#page1 header .logo{
+	position: relative;
+	color: #c2aafa;
+	font-size: 40px;
+	font-family: "Comic", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 0px black;
+}
+#page1 header .navlinks {
     flex-direction: column; 
     align-items: center; 
   }
 
-  #page1 header .navlinks a {
+#page1 header .navlinks a {
     display: block; 
     margin: 5px 0; 
   }
+#page1 header .navlinks a:not(:last-child){
+	margin-right: 30px;
+}
+
+#page1 header .navlinks a:hover{
+	background: white;
+}
   #page1 section {
-	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	background: url("zoro.gif");
 	background-size: cover;
 	background-position: center;
 	vertical-align: middle;
   margin-right: 10px; 
+  position: relative;
 	overflow: auto;
-  background-attachment: scroll;
+	top: 100px;
 }
 .intro{
-    position: absolute;
-    top: 40%;
-    bottom: 40%;
-    left: 55%;
     text-align: center;
     color: #faa49d;
     font-size: 20px;
